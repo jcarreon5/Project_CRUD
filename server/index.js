@@ -7,8 +7,9 @@ const mysql = require('mysql');
 const db = mysql.createPool({
     host: "localhost",
     user: "root",
-    password: "c8w5d2V3@",
-    database: "crud_database",
+    // Change password and database to your specific password and database your using 
+    password: "",
+    database: "",
 });
 
 app.use(cors());
